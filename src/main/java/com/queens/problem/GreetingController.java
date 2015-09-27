@@ -3,9 +3,7 @@ package com.queens.problem;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.concurrent.atomic.AtomicLong;
-
 
 /**
  * Created by davidsonr on 27/09/2015.
