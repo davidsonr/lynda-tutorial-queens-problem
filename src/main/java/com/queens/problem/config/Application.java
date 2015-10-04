@@ -1,15 +1,15 @@
-package com.queens.problem;
+package com.queens.problem.config;
 
-/**
- * Created by davidsonr on 27/09/2015.
- */
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan("com.queens.problem.controllers")
 public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+
 }
